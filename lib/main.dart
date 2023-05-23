@@ -4,7 +4,7 @@ import 'package:riverpod_training/my_widget.dart';
 
 void main() {
   const app = MyApp();
-  const scope = ProviderScope(child: app);
+  const scope = ProviderScope(child: app); //プロジェクトをスコープで囲う
   runApp(scope);
 }
 

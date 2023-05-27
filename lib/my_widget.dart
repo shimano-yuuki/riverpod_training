@@ -7,6 +7,6 @@ class MyWidget extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     //WidgetRef refを追加する
-    return Text('ここにデータが表示されます');
+    return Text('ここにデータが表示されま');
   }
 }
